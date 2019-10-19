@@ -354,7 +354,7 @@ uninstall() {
 			echo
 			echo "如果你觉得这个脚本有哪些地方不够好的话...请告诉我"
 			echo
-			echo "反馈问题: https://github.com/233boy/ss/issues"
+			echo "反馈问题: https://github.com/ikym/Shadowsocks/issues"
 			echo
 		fi
 
@@ -370,9 +370,9 @@ while :; do
 	echo
 	echo "........... Shadowsocks-Go 一键安装脚本 & 管理脚本 by $author .........."
 	echo
-	echo "帮助说明: https://233blog.com/post/36/"
+	echo "博客: https://lioem.com"
 	echo
-	echo "搭建教程: https://233blog.com/post/3/"
+	echo "Github: https://github.com/ikym/Shadowsocks"
 	echo
 	echo " 1. 安装"
 	echo

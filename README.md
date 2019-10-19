@@ -16,7 +16,7 @@
 密码：自己设定（如不设定，默认为 passwd）
 加密方式：自己设定（如不设定，默认为 rc4-md5）
 
->> 备注：脚本默认创建单用户配置文件，如需配置多用户，安装完毕后参照下面的教程示例手动修改配置文件后重启即可。
+> 备注：脚本默认创建单用户配置文件，如需配置多用户，安装完毕后参照下面的教程示例手动修改配置文件后重启即可。
 
 Shadowsocks for Windows 客户端下载：
 https://github.com/shadowsocks/shadowsocks-windows/releases

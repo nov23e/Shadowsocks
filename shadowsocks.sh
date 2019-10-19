@@ -4,17 +4,17 @@ export PATH
 #=================================================================#
 #   System Required:  CentOS 6+, Debian 7+, Ubuntu 12+            #
 #   Description: One click Install Shadowsocks-Python server      #
-#   Author: Teddysun <i@teddysun.com>                             #
-#   Thanks: @clowwindy <https://twitter.com/clowwindy>            #
-#   Intro:  https://teddysun.com/342.html                         #
+#   Author: Cyril Wong <i@lia.im>                                 #
+#   Thanks: @Teddysun <i@teddysun.com>                            #
+#   Intro:  https://lioem.com                                     #
 #=================================================================#
 
 clear
 echo
 echo "#############################################################"
 echo "# One click Install Shadowsocks-Python server               #"
-echo "# Intro: https://teddysun.com/342.html                      #"
-echo "# Author: Teddysun <i@teddysun.com>                         #"
+echo "# Intro: https://lioem.com                                  #"
+echo "# Author: Cyril Wong <i@lia.im>                             #"
 echo "# Github: https://github.com/shadowsocks/shadowsocks        #"
 echo "#############################################################"
 echo
@@ -26,6 +26,7 @@ libsodium_url="https://github.com/jedisct1/libsodium/releases/download/1.0.17/li
 cur_dir=`pwd`
 # Stream Ciphers
 ciphers=(
+rc4-md5
 aes-256-gcm
 aes-192-gcm
 aes-128-gcm
@@ -41,7 +42,6 @@ camellia-256-cfb
 chacha20-ietf-poly1305
 chacha20-ietf
 chacha20
-rc4-md5
 )
 # Color
 red='\033[0;31m'
@@ -163,8 +163,8 @@ pre_install(){
     fi
     # Set shadowsocks config password
     echo "Please enter password for shadowsocks-python"
-    read -p "(Default password: teddysun.com):" shadowsockspwd
-    [ -z "${shadowsockspwd}" ] && shadowsockspwd="teddysun.com"
+    read -p "(Default password: passwd):" shadowsockspwd
+    [ -z "${shadowsockspwd}" ] && shadowsockspwd="shadowsockspwd"
     echo
     echo "---------------------------"
     echo "password = ${shadowsockspwd}"
@@ -358,7 +358,7 @@ install(){
     echo -e "Your Password         : \033[41;37m ${shadowsockspwd} \033[0m"
     echo -e "Your Encryption Method: \033[41;37m ${shadowsockscipher} \033[0m"
     echo
-    echo "Welcome to visit:https://teddysun.com/342.html"
+    echo "Welcome to visit:https://lioem.com"
     echo "Enjoy it!"
     echo
 }

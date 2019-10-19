@@ -164,7 +164,7 @@ pre_install(){
     # Set shadowsocks config password
     echo "Please enter password for shadowsocks-python"
     read -p "(Default password: passwd):" shadowsockspwd
-    [ -z "${shadowsockspwd}" ] && shadowsockspwd="shadowsockspwd"
+    [ -z "${shadowsockspwd}" ] && shadowsockspwd="passwd"
     echo
     echo "---------------------------"
     echo "password = ${shadowsockspwd}"
@@ -246,12 +246,12 @@ download_files(){
     fi
     # Download Shadowsocks init script
     if check_sys packageManager yum; then
-        if ! wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks -O /etc/init.d/shadowsocks; then
+        if ! wget --no-check-certificate https://raw.githubusercontent.com/ikym/shadowsocks_install/master/shadowsocks -O /etc/init.d/shadowsocks; then
             echo -e "[${red}Error${plain}] Failed to download shadowsocks chkconfig file!"
             exit 1
         fi
     elif check_sys packageManager apt; then
-        if ! wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-debian -O /etc/init.d/shadowsocks; then
+        if ! wget --no-check-certificate https://raw.githubusercontent.com/ikym/shadowsocks_install/master/shadowsocks-debian -O /etc/init.d/shadowsocks; then
             echo -e "[${red}Error${plain}] Failed to download shadowsocks chkconfig file!"
             exit 1
         fi
@@ -345,7 +345,7 @@ install(){
         /etc/init.d/shadowsocks start
     else
         echo
-        echo -e "[${red}Error${plain}] Shadowsocks install failed! please visit https://teddysun.com/342.html and contact."
+        echo -e "[${red}Error${plain}] Shadowsocks install failed! please visit https://lioem.com and contact."
         install_cleanup
         exit 1
     fi

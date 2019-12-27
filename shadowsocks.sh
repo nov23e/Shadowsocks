@@ -6,14 +6,14 @@ export PATH
 #   Description: One click Install Shadowsocks-Python server      #
 #   Author: Cyril Wong <kli@live.com>                             #
 #   Thanks: @Teddysun <i@teddysun.com>                            #
-#   Intro:  https://kwvx.com                                      #
+#   Intro:  https://lia.im                                        #
 #=================================================================#
 
 clear
 echo
 echo "#############################################################"
 echo "# One click Install Shadowsocks-Python server               #"
-echo "# Intro: https://kwvx.com                                   #"
+echo "# Intro: https://lia.im                                     #"
 echo "# Author: Cyril Wong <kli@live.com>                         #"
 echo "# Github: https://github.com/shadowsocks/shadowsocks        #"
 echo "#############################################################"
@@ -358,7 +358,7 @@ install(){
     echo -e "Your Password         : \033[41;37m ${shadowsockspwd} \033[0m"
     echo -e "Your Encryption Method: \033[41;37m ${shadowsockscipher} \033[0m"
     echo
-    echo "Welcome to visit:https://kwvx.com"
+    echo "Welcome to visit:https://lia.im"
     echo "Enjoy it!"
     echo
 }

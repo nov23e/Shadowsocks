@@ -98,3 +98,13 @@ Enjoy it!
 重启：/etc/init.d/shadowsocks restart
 状态：/etc/init.d/shadowsocks status
 ```
+
+## Donate
+------------
+
+[![PayPal](https://www.paypalobjects.com/digitalassets/c/website/marketing/apac/C2/logos-buttons/optimize/26_Yellow_PayPal_Pill_Button.png)](paypal.me/wangxiaopeng0)  
+
+## License
+------------
+
+Unless otherwise stated, everything on this GitHub is released under the [MIT](https://mit-license.org) license.

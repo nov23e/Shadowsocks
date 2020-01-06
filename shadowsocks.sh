@@ -345,7 +345,7 @@ install(){
         /etc/init.d/shadowsocks start
     else
         echo
-        echo -e "[${red}Error${plain}] Shadowsocks install failed! please visit https://lioem.com and contact."
+        echo -e "[${red}Error${plain}] Shadowsocks install failed! please visit https://lia.im and contact."
         install_cleanup
         exit 1
     fi

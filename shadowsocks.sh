@@ -4,17 +4,17 @@ export PATH
 #=================================================================#
 #   System Required:  CentOS 6+, Debian 7+, Ubuntu 12+            #
 #   Description: One click Install Shadowsocks-Python server      #
-#   Author: Cyril Wong <hi@hxzo.com>                              #
+#   Author: Cyril Wong <i@lia.im>                                 #
 #   Thanks: @Teddysun <i@teddysun.com>                            #
-#   Intro:  https://hxzo.com                                      #
+#   Intro:  https://lia.im                                        #
 #=================================================================#
 
 clear
 echo
 echo "#############################################################"
 echo "# One click Install Shadowsocks-Python server               #"
-echo "# Intro: https://hxzo.com                                   #"
-echo "# Author: Cyril Wong <hi@hxzo.com>                          #"
+echo "# Intro: https://lia.im                                     #"
+echo "# Author: Cyril Wong <i@lia.im>                             #"
 echo "# Github: https://github.com/shadowsocks/shadowsocks        #"
 echo "#############################################################"
 echo
@@ -358,7 +358,7 @@ install(){
     echo -e "Your Password         : \033[41;37m ${shadowsockspwd} \033[0m"
     echo -e "Your Encryption Method: \033[41;37m ${shadowsockscipher} \033[0m"
     echo
-    echo "Welcome to visit:https://hxzo.com"
+    echo "Welcome to visit:https://lia.im"
     echo "Enjoy it!"
     echo
 }

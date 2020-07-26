@@ -6,14 +6,14 @@ export PATH
 #   Description: One click Install Shadowsocks-Python server      #
 #   Author: Cyril Wong <i@lia.im>                                 #
 #   Thanks: @Teddysun <i@teddysun.com>                            #
-#   Intro:  https://lia.im                                        #
+#   Intro:  https://qizi.org                                      #
 #=================================================================#
 
 clear
 echo
 echo "#############################################################"
 echo "# One click Install Shadowsocks-Python server               #"
-echo "# Intro: https://lia.im                                     #"
+echo "# Intro: https://qizi.org                                   #"
 echo "# Author: Cyril Wong <i@lia.im>                             #"
 echo "# Github: https://github.com/shadowsocks/shadowsocks        #"
 echo "#############################################################"
@@ -163,8 +163,8 @@ pre_install(){
     fi
     # Set shadowsocks config password
     echo "Please enter password for shadowsocks-python"
-    read -p "(Default password: lia.im):" shadowsockspwd
-    [ -z "${shadowsockspwd}" ] && shadowsockspwd="lia.im"
+    read -p "(Default password: qizi.org):" shadowsockspwd
+    [ -z "${shadowsockspwd}" ] && shadowsockspwd="qizi.org"
     echo
     echo "---------------------------"
     echo "password = ${shadowsockspwd}"
@@ -345,7 +345,7 @@ install(){
         /etc/init.d/shadowsocks start
     else
         echo
-        echo -e "[${red}Error${plain}] Shadowsocks install failed! please visit https://lia.im and contact."
+        echo -e "[${red}Error${plain}] Shadowsocks install failed! please visit https://qizi.org and contact."
         install_cleanup
         exit 1
     fi
@@ -358,7 +358,7 @@ install(){
     echo -e "Your Password         : \033[41;37m ${shadowsockspwd} \033[0m"
     echo -e "Your Encryption Method: \033[41;37m ${shadowsockscipher} \033[0m"
     echo
-    echo "Welcome to visit:https://lia.im"
+    echo "Welcome to visit:https://qizi.org"
     echo "Enjoy it!"
     echo
 }

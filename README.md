@@ -26,7 +26,7 @@ https://github.com/shadowsocks/shadowsocks-windows/releases
 使用root用户登录，运行以下命令：
 
 ```
-wget --no-check-certificate -O shadowsocks.sh https://raw.githubusercontent.com/ikym/Shadowsocks/master/shadowsocks.sh
+wget --no-check-certificate -O shadowsocks.sh https://raw.githubusercontent.com/cyrilsoy/Shadowsocks/main/shadowsocks.sh
 chmod +x shadowsocks.sh
 ./shadowsocks.sh 2>&1 | tee shadowsocks.log
 ```
@@ -39,7 +39,7 @@ Your Server Port      :your_server_port
 Your Password         :your_password
 Your Encryption Method:your_encryption_method
 
-Welcome to visit:https://lioem.com
+Welcome to visit:https://lia.im
 Enjoy it!
 ```
 

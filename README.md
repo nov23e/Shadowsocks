@@ -26,7 +26,7 @@ https://github.com/shadowsocks/shadowsocks-windows/releases
 使用root用户登录，运行以下命令：
 
 ```
-wget --no-check-certificate -O shadowsocks.sh https://raw.githubusercontent.com/cyrilsoy/Shadowsocks/main/shadowsocks.sh
+wget --no-check-certificate -O shadowsocks.sh https://raw.githubusercontent.com/hsce/Shadowsocks/main/shadowsocks.sh
 chmod +x shadowsocks.sh
 ./shadowsocks.sh 2>&1 | tee shadowsocks.log
 ```
@@ -97,12 +97,8 @@ Enjoy it!
 停止：/etc/init.d/shadowsocks stop
 重启：/etc/init.d/shadowsocks restart
 状态：/etc/init.d/shadowsocks status
-```
-
-## Donate
-
-[![PayPal](https://www.paypalobjects.com/digitalassets/c/website/marketing/apac/C2/logos-buttons/optimize/26_Yellow_PayPal_Pill_Button.png)](paypal.me/wangxiaopeng0)  
+``` 
 
 ## License
 
-Unless otherwise stated, everything on this GitHub is released under the [MIT](https://mit-license.org) license.
+Unless otherwise stated, everything on this GitHub is released under the [MIT](https://cyrilwong.mit-license.org/) license.
